@@ -1,0 +1,262 @@
+/* .id{
+    background-color: burlywood;
+} */
+ body{
+    height: 100%;
+ }
+#name {
+    font-size: 37px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: monospace;
+    padding-left: 96px;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 28px;
+    color: white;
+}
+.content
+{
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 38px;
+}
+.mail{
+    padding-left: 10px;
+    color: white;
+    font-family: monospace;
+}
+.phone{
+    padding-left: 20px;
+}
+.pno{
+    padding-left: 10px;
+    color: white;
+    font-family: monospace;
+}
+#icon{
+    padding-left: 28px;
+}
+.nav{
+    display: flex;
+    background-color: blanchedalmond;
+}
+#giticon{
+    padding-left: 20px;
+    padding-top: 11px;
+    
+}
+#links{
+    font-size: 20px;
+    font-style: italic;
+    font-variant: all-petite-caps;
+    font-weight: bolder;
+    padding-left: 13px;
+}
+#github_link{
+    color: black;
+    text-decoration: none;
+}
+#gitlink{
+    padding-top: 20px;
+    padding-left: 11px;
+    font-size: medium;
+    font-style: italic;
+    font-family: fantasy;
+}
+#linkedicon{
+    padding-left: 20px;
+    padding-top: 11px;
+}
+#linked_link{
+    color: black;
+    text-decoration: none;
+}
+#linkedin_link{
+    padding-top: 20px;
+    padding-left: 11px;
+    font-size: medium;
+    font-style: italic;
+    font-family: fantasy;
+}
+#resumeicon{
+    padding-left: 20px;
+    padding-top: 11px;
+}
+#resume_link{
+    padding-top: 20px;
+    padding-left: 11px;
+    font-size: medium;
+    font-style: italic;
+    font-family: fantasy;
+}
+#resumelink{
+    color: black;
+    text-decoration: none;
+}
+.menubar{
+    padding-top: 1px;
+    font-size: small;
+    font-family: cursive;
+    margin-left: 63%;
+}
+.home1
+{
+    text-decoration: none;
+    color: white;
+    padding-left: 10%;
+}
+.about1:hover,.home1:hover,.education1:hover,.skills1:hover,.resu1:hover{
+    font-size: xx-large;
+    transition-duration: .7s;
+    color: rgb(22, 244, 51);
+}
+.about1{
+ padding-left: 24px;
+ text-decoration: none;
+ color: white;
+}
+.education1{
+    padding-left: 24px;
+    text-decoration: none;
+    color: white;
+}
+.skills1{
+    padding-left: 24px;
+    text-decoration: none;
+    color: white;
+}
+.resu1{
+    padding-left: 24px;
+    text-decoration: none;
+    color: white;
+}
+.navigation{
+    display: gr;
+    flex-direction: column-reverse;
+}
+.navigation{
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX('-10deg');
+    }
+    to{
+        opacity: 1;
+        transform: rotateX('0deg');
+    }
+}
+.edu{
+    color: rgb(245, 0, 0);
+    margin-left: 41.5%;
+    margin-top: 7%;
+    font-family: monospace;
+    font-size: xxx-large;
+    font-style: italic;
+    margin-right: 41.2%;
+    border-bottom: double;
+    padding-left: 2px;
+}
+th{
+    padding: 15px;
+    background-blend-mode: normal;
+}
+td{
+    padding: 7px;
+}
+.sk{
+    color: rgb(245, 0, 0);
+    margin-left: 44.5%;
+    margin-top: 7%;
+    font-family: monospace;
+    font-size: xxx-large;
+    font-style: italic;
+    margin-right: 41.2%;
+    border-bottom: double;
+    padding-left: 12px;
+}
+.ski{
+    color: white;
+    list-style-type: disclosure-closed;
+    margin-left: 45%;
+}
+.com{
+    font-size: x-large;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.ls{
+    font-size: x-large;
+    padding-left: 10px;
+}
+.cre{
+    font-size: x-large;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.fl{
+    font-size: x-large;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.adap{
+    font-size: x-large;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.res{
+    color: rgb(245, 0, 0);
+    margin-left: 44.5%;
+    margin-top: 7%;
+    font-family: monospace;
+    font-size: xxx-large;
+    font-style: italic;
+    margin-right: 41.2%;
+    border-bottom: double;
+    padding-left: 12px;
+}
+.lk{
+    color: rgb(245, 0, 0);
+    margin-left: 38.5%;
+    margin-top: 7%;
+    font-family: monospace;
+    font-size: xxx-large;
+    font-style: italic;
+    margin-right: 39.2%;
+    border-bottom: double;
+    padding-left: 12px;
+}
+.c{
+    font-size: x-large;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.java{
+    font-size: x-large;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.dbms{
+    font-size: x-large;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.DS{
+    font-size: x-large;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.lan_k{
+    color: white;
+    list-style-type: disclosure-closed;
+    margin-left: 45%;
+}
+.bas{
+    margin-left: 156px;
+    margin-top: 4px;
+    font-size: medium;
+}
